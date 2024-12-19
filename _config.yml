@@ -38,4 +38,3 @@ parse:
     # including those that are enabled by default!
     - amsmath
     - dollar_math
-  myst_update_mathjax: true
