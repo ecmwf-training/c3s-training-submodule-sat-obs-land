@@ -39,10 +39,3 @@ parse:
     - amsmath
     - dollar_math
   myst_update_mathjax: true
-
-# Enable MathJax explicitly
-sphinx:
-  config:
-    extensions:
-      - myst_parser
-      - sphinx.ext.mathjax
