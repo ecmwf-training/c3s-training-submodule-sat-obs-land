@@ -38,4 +38,3 @@ parse:
     # including those that are enabled by default!
     - amsmath
     - mathjax
-    - dollar_math
