@@ -46,3 +46,10 @@ sphinx:
     extensions:
       - myst_parser
       - sphinx.ext.mathjax
+
+html:
+  mathjax_config:
+    TeX:
+      equationNumbers: { autoNumber: "AMS" }
+      inlineMath: [["$", "$"], ["\\(", "\\)"]]
+      displayMath: [["$$", "$$"], ["\\[", "\\]"]]
