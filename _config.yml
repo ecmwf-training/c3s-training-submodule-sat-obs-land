@@ -34,7 +34,15 @@ exclude_patterns:
 
 parse:
   myst_enable_extensions:
-    # don't forget to list any other extensions you want enabled,
+    # Don't forget to list any other extensions you want enabled,
     # including those that are enabled by default!
     - amsmath
     - dollar_math
+  myst_update_mathjax: true
+
+# Enable MathJax explicitly
+sphinx:
+  config:
+    extensions:
+      - myst_parser
+      - sphinx.ext.mathjax
