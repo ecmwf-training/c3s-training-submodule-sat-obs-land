@@ -5,4 +5,7 @@ dependencies:
   - xarray
   - matplotlib
   - cartopy
-  - jupyterlab-myst
+  - jupyter
+  - pip
+  - pip:
+    - earthkit
