@@ -165,6 +165,7 @@ cython_debug/
 .DS_Store
 .vscode/
 .ipynb_checkpoints/
+.conda/
 
 _build/
 data_dir/
